@@ -1,0 +1,254 @@
+/*
+
+set document defaults
+
+*/
+
+
+
+:root {
+background-color: #F3E5AB;
+font-size: 1.2em;
+font-family: Georgia;
+margin: 0px;
+padding: 0;
+text-shadow: 1px .5px #FFF;
+font-family: "Shadows Into Light";
+border-radius: 1%;
+}
+
+
+
+/*
+
+stickyfooter - body margin bottom must match footer height
+
+*/
+
+
+
+html {
+min-height: 100%;
+position: relative;
+}
+body {
+margin: 0 0 150px;
+}
+
+
+
+/*
+
+wrapper for everything but footer
+
+*/
+
+
+
+#wrapper {
+margin: auto;
+background-color:#FFCF73;
+max-width: 90%;
+text-align: center;
+border-width: 1px;
+border-right-style: solid;
+border-left-style: solid;
+border-color: #A66E00;
+}
+
+/*
+
+header styling
+
+*/
+
+
+
+#header {
+text-align: left;
+padding: 10px;
+background-color: #A66E00;
+color: white;
+border-bottom-style: solid;
+border-color: #C88F00;
+border-width: 2px;
+}
+.page-title {
+display: inline-block;
+vertical-align: middle;
+text-shadow: 1.2px 2px #F73;
+font-family: Lobster;
+}
+.header-img {
+vertical-align: middle;
+display: inline-block;
+width: 150px;
+}
+
+
+
+/*
+
+content wrapper
+
+*/
+
+
+
+#content {
+max-width: 90%;
+margin: auto;
+color: black;
+}
+.notice {
+background-color: #3ADF00;
+border-style: solid;
+border-color: green;
+color: black;
+border-radius: 5%;
+font-family: Lobster;
+}
+.error {
+background-color: #FE2E2E;
+border-style: solid;
+border-color: red;
+color: white;
+border-radius: 5%;
+font-family: Lobster;
+font-size: 1 em;
+padding: 0;
+text-shadow: 1px .5px #000;
+margin: 0;
+line-height: 1;
+}
+.food {
+max-width: 100%;
+display: inline-block;
+padding: 0;
+padding-right: 4%;
+}
+.picture, .description {
+width: 48%;
+padding-top: 5%;
+display: inline-block;
+line-height: 1.9;
+margin: 2px;
+}
+.picture {
+border-right-color: white;
+text-align: center;
+}
+.picture img {
+margin: auto;
+border-radius: 10%;
+}
+.description {
+font-family: Lobster;
+font-size: 1.1em;
+vertical-align: top;
+text-align: center;
+}
+.description h2 {
+margin: 0;
+text-align: center;
+font-family: 'Shadows Into Light';
+text-decoration: underline;
+}
+/*
+.menu-description:first-letter {
+float: left;
+font-size: 3em;
+color: black;
+margin-right: 2px;
+line-height: 20px;
+padding: 15px;
+}
+*/
+.label {
+font-size: .8em;
+font-family: "Shadows Into Light";
+font-weight: 700;
+}
+
+.item-name-edit, .description-edit {
+border-style: dashed;
+border-color: white;
+background-color: inherit;
+font-size: .8em;
+line-height: 1;
+border-width: 2px;
+max-width: 100%;
+text-align: center;
+}
+
+.description-edit {
+text-align: justify;
+}
+/*
+
+related items section
+
+*/
+
+
+.other-items {
+background-color: white;
+width: 100%;
+height: 80px;
+padding: 20px, 0;
+border-top-style: solid;
+border-top-width: 1px;
+border-color: #C88F00;
+}
+.other-items ul li {
+text-decoration: none;
+display: inline-block;
+}
+.other-items ul {
+padding: 0;
+margin: 0;
+}
+.other-item:before{
+background-attachment: url('../img/food.png');
+}
+
+
+/*
+
+footer styling
+
+*/
+.push {
+min-height: 100px;
+background-color: white;
+}
+
+#footer {
+background-color: #BF8F30;
+max-width: 90%;
+padding-bottom: 0;
+border-top-style: solid;
+border-color: #A66E00;
+border-right-style: solid;
+border-left-style: solid;
+position: absolute;
+height: 150px;
+bottom: 0;
+left: 4.94%;
+width:100%;
+border-width: 1px;
+border-top-width: 3px;
+}
+.footer-text {
+padding-top: 20px;
+margin: 0;
+text-align: center;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+/*
+
+media queries
+
+*/
+
+@media screen and (max-width: 950px) {
+	.picture {
+	width: 100%;
+	border-right-style: none;
+	}
+	.description {
+	text-align: center;
+	line-height: 1.5;
+	width: 100%;
+	}
+	.menu-description:first-letter {
+	float: none;
+	font-size: 1em;
+	line-height: 1em;
+	padding: inherit;
+	background-color: inherit;
+	border-width: 0;
+	}
+
+}
+@media screen and (max-width: 580px) {
+	.header-img {
+	display: none;
+	}
+	#header {
+	text-align: center;
+	}
+}
